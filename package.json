@@ -19,12 +19,24 @@
     "",
     ""
   ],
+  "scripts": {
+    "start": "node lib/appserver.js"
+  },
   "dependencies": {
-    "superscore": "*"
+    "superscore": "*",
+    "jquery": ">= 1",
+    "jefri": ">=1",
+    "jefri-stores": "*",
+    "jefri-server": "*",
+    "express": "*"
   },
   "devDependencies": {
     "grunt-livescript": "*",
-    "grunt-contrib": "*"
+    "grunt-contrib": "*",
+    "grunt-wrap": "*",
+    "requirejs": "*",
+    "grunt": "~0.3.17",
+    "jefri-modeler": "*"
   },
   "licenses": [{"type": "MIT"}]
 }
