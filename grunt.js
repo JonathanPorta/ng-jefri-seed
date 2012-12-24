@@ -35,7 +35,8 @@ module.exports = function(grunt) {
 					'build/scripts/services.js'   : 'client/services/*ls',
 					'build/scripts/directives.js' : 'client/directives/*ls',
 					'build/scripts/components.js' : 'client/components/**/*ls',
-					'build/scripts/pages.js'      : 'client/pages/**/*ls'
+					'build/scripts/pages.js'      : 'client/pages/**/*ls',
+					'lib/appserver.ls'            : 'server/appserver.ls'
 				},
 				options: {
 					bare: false
