@@ -16,9 +16,7 @@ module.exports = function(grunt) {
 			}
 		},
 		lint: {
-			dev: {
-				files: ["client/<%= pkg.name %>.json"]
-			}
+			files: ['client/<%= pkg.name %>.json']
 		},
 		jade: {
 			dev: {
@@ -154,7 +152,7 @@ module.exports = function(grunt) {
 //	grunt.registerTask('views', 'jade:templates jade:page jade:list');s
 //	grunt.registerTask('scripts', 'livescript:app concat:js concat:jsServices concat:jsFilters concat:ls livescript:dist concat:dist');
 //	grunt.registerTask('styles', 'stylus:app mincss:dist');
-	grunt.registerTask('dev', 'jade:dev livescript:dev stylus:dev copy:dev');
+	grunt.registerTask('dev', 'lint jade:dev livescript:dev stylus:dev copy:dev');
 	grunt.registerTask('tests', 'livescript:test concat:unit');
 	grunt.registerTask('default', 'clean dev');
 };
