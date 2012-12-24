@@ -1,0 +1,30 @@
+{
+  "name": "ng-jefri-seed",
+  "title": "ng-jefri-seed",
+  "homepage": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Porta",
+    "email": "<jonathan@jonathanporta.com>"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "dependencies": {
+    "superscore": "*"
+  },
+  "devDependencies": {
+    "grunt-livescript": "*",
+    "grunt-contrib": "*"
+  },
+  "licenses": [{"type": "MIT"}]
+}
