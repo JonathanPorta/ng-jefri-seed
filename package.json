@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "superscore": "*",
-    "jquery": ">= 1",
     "jefri": ">=1",
     "jefri-stores": "*",
     "jefri-server": "*",
