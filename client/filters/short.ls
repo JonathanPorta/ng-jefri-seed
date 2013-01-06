@@ -2,6 +2,6 @@ Short = ->
 	(id)->
 		"(#{id.substring 0, 8})"
 
-angular.module \AppModule
+angular.module \seedApp
 	.filter \shortId, Short
 
